@@ -1,6 +1,7 @@
-p =" principal"
+p = "principal"
 r = "rate"
 t = "time"
+i = "interest"
 
 principal = 1000 # Principal amount ($1000)
 rate = 0.05    # Annual interest rate (5%)  

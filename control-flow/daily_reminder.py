@@ -6,7 +6,7 @@ time_bound = input("Is it time-bound? (yes/no): ").lower()
     # Process the task based on priority and time sensitivity
 reminder = f"Reminder: '{task}' is a {priority} priority task"
 if time_bound == "yes":
-        reminder += " that requires immediate attention today!"
+        print(f"{reminder} that requires immediate attention today!")
 
     # Provide a customized reminder
 match priority:

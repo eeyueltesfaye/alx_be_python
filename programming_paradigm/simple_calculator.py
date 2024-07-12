@@ -20,5 +20,6 @@ class SimpleCalculator:
         if b == 0:
             return None
         return a / b
+    
 p1 = SimpleCalculator().divide(3,0)
 print(p1)
